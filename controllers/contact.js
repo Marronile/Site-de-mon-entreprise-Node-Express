@@ -1,5 +1,14 @@
+/**
+ * @file Contact page controller
+ * @author Justin  Dah-kenangnon <dah.kenangnon@marronile.com>
+ * @copyright Marronile 2020
+ * @license MIT
+ */
+
+// Required modules
 var mailer = require("../services/mailer.services");
 
+//Controller
 exports.contact = (req, res, next) => {
   //Response template
   var sendEmailResponse = {
@@ -17,7 +26,7 @@ exports.contact = (req, res, next) => {
     var html =
       "<u>Author:</u> " +
       req.body.email +
-      " <br> <br> <u></u>Message:</uAuthor:>  <br> " +
+      " <br> <br> <u>Message:</u><br> " +
       req.body.content;
     html += " Since " + new Date.toString();
     var author = req.body.email;

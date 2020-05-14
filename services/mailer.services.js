@@ -1,7 +1,18 @@
+/**
+ * @file Mail service
+ * @author Justin  Dah-kenangnon <dah.kenangnon@marronile.com>
+ * @copyright Marronile 2020
+ * @license MIT
+ */
+
+//Required modules
 var nodemailer = require("nodemailer");
 var config = require("../config/default.json");
 
+//Function  used to contact us
 exports.Contactus = ({ from, content }) => {
+
+  //Flag to control whether email is sent or not
   var mailSent = false;
 
   //Transporter
