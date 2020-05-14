@@ -42,7 +42,7 @@ Yes, you can use this project in production for free. But be sure to:
 
 ## Tutorial
 
-Checkout the written tutorial from [marronile.com](https://www.marronile.com/)
+Checkout the written tutorial from [marronile.com](https://www.marronile.com/projet-reel-creer-le-site-de-mon-entreprise-avec-node-js-et-express-js/)
 
 ## About templates
 
