@@ -1,70 +1,44 @@
 # Site-de-mon-entreprise-Node-Express
 
 <p align="center">
-  <img  src="./docs/img/vscode-js.png">
+  <img  src="./docs/img/index1.png">
 </p>
+We are going to create the site of the company Marronile Sarl to allow it:
 
-Nous allons réaliser le site de l'entreprise Marronile Sarl pour lui permettre:
+- to present its activities
+- and give customers the opportunity to contact him
 
-- de présenter ses activités
-- et donner la possibilité aux clients de le contacter
-
-Le site aura un backend node js et doit être être extensible facilement.
+The site will have a node js backend and must be easily expandable.
 
 ## Features
 
-Dans la description du projet, nous voyons apparaître clairement les fonctionnalités que nous devrons coder. Ainsi, nous réaliseront les pages suivantes:
+In the description of the project, we see clearly the functionalities that we will have to code. Thus, we will realize the following pages:
 
-- Accueil: Page d'accueil du site qui présentera les derniers tutoriels de projets réels
+- Home: Home page of the site which will present the latest tutorials of real projects
 
-- A propos: Page sur laquelle nous allons présenter l'entreprise, sa vision et sa mission
-
-<p align="center">
-  <img  src="./docs/img/index1.png">
-</p>
-
-<p align="center">
-  <img  src="./docs/img/index2.png">
-</p>
-- Contact: Page de contact par email.
-<p align="center">
-  <img  src="./docs/img/contact1.png">
-</p>
-
-<p align="center">
-  <img  src="./docs/img/contact2.png">
-</p>
-- Nos services: Page de présentation des services de l'entreprise
-<p align="center">
-  <img  src="./docs/img/services1.png">
-</p>
-
-<p align="center">
-  <img  src="./docs/img/services2.png">
-</p>
+- About: Page on which we will present the company, its vision and its mission
+- Contact: Contact page by email.
+- Our services: Presentation page of the company's services
 - Not found page
 - Server Error page
-<p align="center">
-  <img  src="./docs/img/404.png">
-</p>
 
-<p align="center">
-  <img  src="./docs/img/errorpage-js.png">
-</p>
+## Demonstration
+
+Go to this address to see a demonstration of the site:
 
 ## Prerequisites
 
-- Node js installé
-- Le ClI de Express Js installé
+- Node js installed
+- The Express Js ClI installed
 
-## Can i use it in production ?
+## Can i use it in production?
 
-Oui, vous pouvez l'utiliser ce projet en production gratuitement. Mais assurez-vous de:
+Yes, you can use this project in production for free. But be sure to:
 
-- Modifier les variables de configuration dans le repertoire /config
-- De modifier le services d'envoi de mail selon le services de transport de mail que vous désirez
+- Modify the configuration variables in the / config directory
+- To modify the mail sending services according to the mail transport services you want
   /services/mailer.services.js
-- Modifier les pages /views/
+- Edit pages / views /
 
 ## Tutorial
 
